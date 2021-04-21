@@ -8,13 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var player1Output: UILabel!
-    
-    @IBOutlet weak var player3Output: UILabel!
-    @IBOutlet weak var player4Output: UILabel!
-    @IBOutlet weak var player2Output: UILabel!
     @IBOutlet weak var message: UILabel!
     
+    @IBOutlet weak var player1Output: UILabel!
+    @IBOutlet weak var player2Output: UILabel!
+    @IBOutlet weak var player3Output: UILabel!
+    @IBOutlet weak var player4Output: UILabel!
     var player1Life : Int = 1
     var player2Life : Int = 1
     var player3Life : Int = 1
